@@ -1,0 +1,38 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const images = document.querySelectorAll('.carousel-images img');
+    const prevButton = document.getElementById('prevButton');
+    const nextButton = document.getElementById('nextButton');
+    let currentIndex = 0;
+    const intervalTime = 3000;
+    let autoSlide = setInterval(nextImage, intervalTime);
+
+    function showImage(index) {
+        images.forEach((img, i) => {
+            img.classList.toggle('active', i === index);
+        });
+    }
+
+    function nextImage() {
+        currentIndex = (currentIndex + 1) % images.length;
+        showImage(currentIndex);
+    }
+
+    function prevImage() {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+        showImage(currentIndex);
+    }
+
+    nextButton.addEventListener('click', () => {
+        nextImage();
+        clearInterval(autoSlide);
+        autoSlide = setInterval(nextImage, intervalTime);
+    });
+
+    prevButton.addEventListener('click', () => {
+        prevImage();
+        clearInterval(autoSlide);
+        autoSlide = setInterval(nextImage, intervalTime);
+    });
+
+    showImage(currentIndex);
+});

@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stylized-image {
+    border: 5px solid #ea65e1; /* Borda inicial */
+    transition: border-color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+.stylized-image:hover {
+    border-color: #7e15ef; /* Cor da borda ao passar o mouse */
+}
