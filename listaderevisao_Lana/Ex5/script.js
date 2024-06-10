@@ -1,3 +1,4 @@
+// LANA B C DE ARAÚJO 
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('contact-form');
 

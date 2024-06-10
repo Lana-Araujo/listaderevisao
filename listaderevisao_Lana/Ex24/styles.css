@@ -1,0 +1,47 @@
+/* LANA B C DE ARAUJO */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.audio-player {
+    display: flex;
+    gap: 10px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+#playBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#pauseBtn {
+    background-color: #FFC107;
+    color: white;
+}
+
+#stopBtn {
+    background-color: #F44336;
+    color: white;
+}

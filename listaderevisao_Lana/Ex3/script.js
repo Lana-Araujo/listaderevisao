@@ -1,3 +1,4 @@
+// LANA B C DE ARAÚJO 
 document.addEventListener('DOMContentLoaded', (event) => {
     const listItems = document.querySelectorAll('.interactive-list li');
 

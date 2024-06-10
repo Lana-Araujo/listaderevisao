@@ -1,0 +1,30 @@
+<!-- LANA B C DE ARAUJO -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens - EX14</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Galeria de Imagens</h1>
+        <div class="buttons">
+            <button onclick="filterSelection('all')" class="btn active">Todos</button>
+            <button onclick="filterSelection('nature')" class="btn">Natureza</button>
+            <button onclick="filterSelection('animals')" class="btn">Animais</button>
+            <button onclick="filterSelection('cities')" class="btn">Cidades</button>
+        </div>
+        <div class="gallery">
+            <div class="gallery-item nature"><img src="img/natureza1.png" alt="Natureza 1"></div>
+            <div class="gallery-item nature"><img src="img/natureza2.jpg" alt="Natureza 2"></div>
+            <div class="gallery-item animals"><img src="img/animal1.jpg" alt="Animal 1"></div>
+            <div class="gallery-item animals"><img src="img/animal2.jpg" alt="Animal 2"></div>
+            <div class="gallery-item cities"><img src="img/cidade1.jpg" alt="Cidade 1"></div>
+            <div class="gallery-item cities"><img src="img/cidade2.jpg" alt="Cidade 2"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,3 +1,4 @@
+// LANA B C DE ARAÚJO 
 document.addEventListener('DOMContentLoaded', () => {
     const table = document.querySelector('.styled-table tbody');
     const addRowBtn = document.getElementById('add-row-btn');

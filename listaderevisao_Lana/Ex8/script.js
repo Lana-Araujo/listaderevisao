@@ -1,3 +1,4 @@
+// LANA B C DE ARAÚJO 
 document.addEventListener('DOMContentLoaded', () => {
     const images = document.querySelectorAll('.carousel-images img');
     const prevButton = document.getElementById('prevButton');

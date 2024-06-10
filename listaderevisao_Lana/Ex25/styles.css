@@ -1,0 +1,43 @@
+/* LANA B C DE ARAUJO */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.faq {
+    margin-top: 20px;
+}
+
+.question {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.question:hover {
+    background-color: #f0f0f0;
+}
+
+.question-text {
+    font-weight: bold;
+}
+
+.answer {
+    display: none;
+    padding-top: 10px;
+}

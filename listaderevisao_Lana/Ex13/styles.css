@@ -1,0 +1,24 @@
+/* LANA B C DE ARAÚJO  */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #282c34;
+    font-family: 'Arial', sans-serif;
+}
+
+.clock-container {
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#clock {
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}

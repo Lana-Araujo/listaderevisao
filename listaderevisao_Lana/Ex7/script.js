@@ -1,3 +1,4 @@
+// LANA B C DE ARAÚJO 
 document.addEventListener('DOMContentLoaded', () => {
     const dropdownButton = document.getElementById('dropdownMenuButton');
     const dropdownMenu = document.getElementById('dropdownMenu');
